@@ -106,12 +106,5 @@
       "args": [],
       "icon": "terminal-cmd"
     },
-    "Git Bash": {
-      "source": "Git Bash"
-    },
-    "t": {
-      "path": "C:\\Users\\ak67094\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
-      "args": ["--login"]
-    }
   }
 }
