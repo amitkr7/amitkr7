@@ -1,0 +1,117 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "vscode_custom_css.imports": [],
+  "update.mode": "manual",
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+  "highlight-matching-tag.customEmptyElements": [null],
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  "update.enableWindowsBackgroundUpdates": false,
+  "bracket-pair-colorizer-2.colors": ["Gold", "Orchid", "LightSkyBlue"],
+  "html.format.contentUnformatted": "",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.associations": {
+    "*.ejs": "html"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "jshint.options": {
+    "esversion": 6
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.singleQuote": true,
+  "editor.wordWrap": "on",
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+  "files.eol": "\n",
+
+  //John Smilga setting
+  "editor.formatOnPaste": true,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "custom": {
+          "borderWidth": "0 0 0 3px",
+          "borderStyle": "solid",
+          "borderColor": "yellow",
+          "borderRadius": "5px",
+          "overviewRulerColor": "white"
+        }
+      },
+      "right": {
+        "custom": {
+          "borderWidth": "0 3px 0 0",
+          "borderStyle": "solid",
+          "borderColor": "yellow",
+          "borderRadius": "5px",
+          "overviewRulerColor": "white"
+        }
+      }
+    }
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "bracketPairColorizer.consecutivePairColors": [
+    "()",
+    "[]",
+    "{}",
+    ["<", "</"],
+    ["<", "/>"],
+    ["Gold", "Orchid", "LightSkyBlue"],
+    "Red"
+  ],
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.fontWeight": "normal",
+  "workbench.iconTheme": "vscode-icons",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.fontSize": 15,
+  "editor.fontFamily": "'Fira Code',Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Monokai Dark Vibrant",
+  "terminal.integrated.automationShell.linux": "",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "code-runner.runInTerminal": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "t": {
+      "path": "C:\\Users\\ak67094\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
+      "args": ["--login"]
+    }
+  }
+}
